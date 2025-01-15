@@ -28,16 +28,16 @@ from strings import get_string
 
 
 NEXI_VID = [
-"https://telegra.ph/file/6ae3a399b96f70b6fda79.mp4",
-"https://telegra.ph/file/5df37a776933bb427b528.mp4",
-"https://telegra.ph/file/85a35e5a79525b70f5904.mp4",
-"https://telegra.ph/file/75764b093a76d08f51d2c.mp4",
-"https://telegra.ph/file/ea951700bb21f53df70c9.mp4",
-"https://telegra.ph/file/b74553a355a110d9a016b.mp4",
-"https://telegra.ph/file/959dc8b67413e50f1c4a5.mp4",
-"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
-"https://graph.org/file/83ebf52e8bbf138620de7.mp4",
-"https://graph.org/file/ba7699c28dab379b518ca.mp4",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
+"https://files.catbox.moe/r6p3hw.jpg",
 
 ]
 
