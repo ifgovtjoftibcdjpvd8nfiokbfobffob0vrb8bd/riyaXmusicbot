@@ -24,7 +24,43 @@ from PROFESSOR.utils.formatters import get_readable_time
 from PROFESSOR.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
-from PROFESSOR import SUDOERS
+
+
+
+YUMI_PICS = [
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+"https://files.catbox.moe/n4vivz.jpg",
+
+]
+
+
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
@@ -34,8 +70,8 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_video(
-                random.choice(NEXI_VID),
+            return await message.YUMI_PICS(
+                random.choice(YUMI_PICS),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -90,8 +126,8 @@ chat_id=message.chat.id,
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         UP, CPU, RAM, DISK = await bot_sys_stats()
-        await message.reply_video(
-            random.choice(NEXI_VID),
+        await message.YUMI_PICS(
+            random.choice(YUMI_PICS),
             caption=_["start_2"].format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM,served_users,served_chats),
             reply_markup=InlineKeyboardMarkup(out),
         )
@@ -107,8 +143,8 @@ chat_id=message.chat.id,
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-    await message.reply_video(
-        random.choice(NEXI_VID),
+    await message.YUMI_PICS(
+        random.choice(YUMI_PICS),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -142,8 +178,8 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_video(
-                    random.choice(NEXI_VID),
+                await message.YUMI_PICS(
+                    random.choice(YUMI_PICS),
                     caption=_["start_3"].format(
                         message.from_user.mention,
                         app.mention,
