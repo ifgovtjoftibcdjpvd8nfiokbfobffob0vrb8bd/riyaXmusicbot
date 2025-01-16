@@ -25,24 +25,6 @@ from PROFESSOR.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-
-
-NEXI_VID = [
-"https://files.catbox.moe/dioqo9.mp4",
-"https://files.catbox.moe/8xcwu0.mp4",
-"https://files.catbox.moe/s38i5o.mp4",
-"https://files.catbox.moe/224yst.mp4",
-"https://files.catbox.moe/8uvkif.mp4",
-"https://files.catbox.moe/64yhbc.mp4",
-"https://files.catbox.moe/8xcwu0.mp4",
-"https://files.catbox.moe/224yst.mp4",
-"https://files.catbox.moe/s38i5o.mp4",
-"https://files.catbox.moe/64yhbc.mp4",
-
-]
-
-
-
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
