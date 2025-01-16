@@ -28,16 +28,16 @@ from strings import get_string
 
 
 NEXI_VID = [
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
-"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://files.catbox.moe/dioqo9.mp4",
+"https://files.catbox.moe/8xcwu0.mp4",
+"https://files.catbox.moe/s38i5o.mp4",
+"https://files.catbox.moe/224yst.mp4",
+"https://files.catbox.moe/8uvkif.mp4",
+"https://files.catbox.moe/64yhbc.mp4",
+"https://files.catbox.moe/8xcwu0.mp4",
+"https://files.catbox.moe/224yst.mp4",
+"https://files.catbox.moe/s38i5o.mp4",
+"https://files.catbox.moe/64yhbc.mp4",
 
 ]
 
