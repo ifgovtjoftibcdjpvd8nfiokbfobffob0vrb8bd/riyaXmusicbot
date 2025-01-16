@@ -28,16 +28,16 @@ from strings import get_string
 
 
 NEXI_VID = [
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
-"https://files.catbox.moe/r6p3hw.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
+"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
 
 ]
 
