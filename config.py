@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_hunter_lll")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "riyaXmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "kavya_music_robot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹ʀɪʏᴧ ꭙ ᴍᴜsɪᴄ˼")
+BOT_NAME = getenv("BOT_NAME", "Kavya music")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "itz_m3_riya")
 EVALOP = list(map(int, getenv("EVALOP", "7668520999").split()))
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KSD_BOT_NETWORk")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_RIYA_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RIYA_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RIYA_CHAT_SUPPORT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,7 +95,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/n4vivz.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/r6p3hw.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/hne5t5.jpg"
@@ -130,4 +130,5 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
+
